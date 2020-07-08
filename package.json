@@ -1,0 +1,25 @@
+{
+  "name": "mychat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node -r dotenv/config app.js dotenv_config_path=./dev.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisjohn/mychat.git"
+  },
+  "author": "christian john elmedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisjohn/mychat/issues"
+  },
+  "homepage": "https://github.com/crisjohn/mychat#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
